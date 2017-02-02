@@ -1,10 +1,9 @@
 html{overflow-y:scroll;}
-body{font-size:14px; line-height:1.61; font-family:sans-serif; color:#333}
+body{max-width:45em;font-size:14px; line-height:1.61; font-family:sans-serif; color:#333; margin:0 auto}
 a{color:#12C}
 a:hover{color:#c00; outline:0}
 img{float:left;}
-header,.container{max-width:45em; margin:0 auto}
-header{padding:0 0.5em; color:#C90B0B}
+header{color:#C90B0B}
 header img{border-radius:40px}
 header p{font-size:1.5em; padding-left:4em}
 header p span{font-size:0.8em;}
