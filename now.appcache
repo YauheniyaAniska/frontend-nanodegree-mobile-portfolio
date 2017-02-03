@@ -1,6 +1,6 @@
 CACHE MANIFEST
-style.css
-print.css
-perfmatters.js
-profilepic.jpg
-me.jpg
+css/style.css
+css/print.css
+js/perfmatters.js
+img/profilepic.jpg
+img/me.jpg
