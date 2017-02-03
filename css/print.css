@@ -1,4 +1,4 @@
-@media print{ *{color:black !important; text-shadow:none !important; filter:none !important; -ms-filter:none !important}
+@media print{ *{color:black !important; text-shadow:none !important}
   a:visited{color:#444 !important}
   a[href]:after{content:"("attr(href) ")"}
   @page{margin:0.5cm}
