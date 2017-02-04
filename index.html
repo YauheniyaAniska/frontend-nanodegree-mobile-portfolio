@@ -17,8 +17,7 @@
       footer span{float:right}
       @media only screen and (max-width:480px){body{font-size:12px}header p{padding-left:4.5em}}
     </style>
-    <link href="css/print.css" rel="stylesheet" media="print">
-    <script async src="js/perfmatters.js"></script></head>
+    <link href="css/print.css" rel="stylesheet" media="print"></head>
   <body>
     <header>
       <img src="https://pp.vk.me/c638816/v638816807/1e72c/VGAp12r0s2w.jpg"><p><b>Cameron Pittman</b><br><span>Course Developer</span></p>
@@ -42,5 +41,11 @@
         </ul>
       </div>
       <footer><p>&copy; Web Performance 2014 <i><span id="crp-stats"></span></i></p></footer>
+   <script>function logCRP() {var t = window.performance.timing,
+    dcl = t.domContentLoadedEventStart - t.domLoading,
+    complete = t.domComplete - t.domLoading;
+  var stats = document.getElementById("crp-stats");
+  stats.textContent = 'DCL: ' + dcl + 'ms, onload: ' + complete + 'ms';}
+window.addEventListener("load", function(event) {logCRP();});</script>
   </body>
 </html>
